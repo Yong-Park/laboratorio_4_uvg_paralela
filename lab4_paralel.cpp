@@ -1,10 +1,12 @@
+// yongbum park
+// 20117
+
 #include <iostream>
 #include <cmath>
 #include <mpi.h>
 
 using namespace std;
 
-// Función que defines para calcular la función que quieres integrar.
 double f(double x) {
     return sin(x);  
 }
